@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
     var num2 = readLine()!!.toDouble()
 
     var calculator = Calculator()
-    var result = calculator.oprator(num1, num2, operator)
+    var result = calculator.operator(num1, num2, operator)
 
     println("정답은 ${result}입니다.")
     Info(num1, num2, operator).endinfo()

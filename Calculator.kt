@@ -1,7 +1,7 @@
 package com.example.myapplication.calculator_study
 
 class Calculator() {
-    fun oprator(num1: Double, num2: Double, operator: String) : Double {
+    fun operator(num1: Double, num2: Double, operator: String) : Double {
         var add = AddOperation()
         var sub = SubstractOperation()
         var mul = MultiplyOperation()
