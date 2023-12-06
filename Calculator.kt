@@ -10,13 +10,13 @@ class Calculator() {
         var result = 0.0
 
         if( operator == "+") {
-            result = add.operate(num1, num2).toDouble()
+            result = add.operate(num1, num2)
         } else if( operator == "-") {
-            result = sub.operate(num1, num2).toDouble()
+            result = sub.operate(num1, num2)
         } else if( operator == "*") {
-            result = mul.operate(num1, num2).toDouble()
+            result = mul.operate(num1, num2)
         } else if( operator == "/") {
-            result = divi.operate(num1, num2).toDouble()
+            result = divi.operate(num1, num2)
         } else {
             println("선택이 취소되었습니다.")
             0.0
